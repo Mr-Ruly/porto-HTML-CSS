@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #8e44ad, #3498db); /* Gradasi ungu ke biru */
+            height: 80px; /* Ukuran tetap */
+            color: white;
+            border-bottom: 4px solid #343a40;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: center;
+            width: 100%;
+        }
+        .logo {
+            font-size: 2.5em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #f8f9fa;
+            cursor: pointer;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .logo:hover {
+            transform: scale(1.05);
+            color: #ffc107;
+        }
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px 20px;
+            }
+            .logo {
+                font-size: 2.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MyWebsite</div>
+    </header>
+</body>
+</html>
