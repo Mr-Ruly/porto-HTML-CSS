@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teman Sosial Media</title>
+    <!-- Link ke Font Awesome untuk ikon media sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Reset margin dan padding untuk konsistensi */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        fieldset {
+            background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradasi biru-ungu yang cerah */
+            border: none;
+            border-radius: 15px;
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        fieldset:hover {
+            transform: scale(1.05); /* Efek pembesaran saat hover */
+        }
+
+        legend {
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 20px 0; /* Jarak antar item diperpendek */
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em; /* Ukuran font nama diper kecil */
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 20px;  /* Padding lebih besar */
+            border-radius: 30px; /* Membuat border lebih bulat */
+            background-color: #34495e;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        a i {
+            margin-right: 8px;  /* Mengurangi jarak antara ikon dan teks */
+            font-size: 1.5em;   /* Ukuran ikon Instagram lebih kecil */
+        }
+
+        a:hover {
+            background-color: #1abc9c; /* Warna hijau yang cerah */
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(26, 188, 156, 0.3);
+        }
+
+        /* Responsif untuk layar lebih kecil */
+        @media (max-width: 600px) {
+            fieldset {
+                padding: 20px;
+            }
+
+            legend {
+                font-size: 1.6em;
+            }
+
+            a {
+                font-size: 1.1em; /* Menyesuaikan ukuran font untuk perangkat kecil */
+            }
+
+            a i {
+                font-size: 1.5em; /* Ukuran ikon lebih kecil pada perangkat kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Teman Sosial Media</legend>
+        <ul>
+            <li><a href="https://www.instagram.com/rulys_11/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Ruly S</a></li>
+            <li><a href="https://www.instagram.com/beargod05/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> M Ihsan</a></li>
+            <li><a href="https://www.instagram.com/ilham_iam41/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Ilham</a></li>
+            <li><a href="https://www.instagram.com/syhrlz_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> M Syahrul</a></li>
+            <li><a href="https://www.instagram.com/hafiyanrizqi.dev/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Hafiyanrizqi</a></li>
+            <li><a href="https://www.instagram.com/fajaarahmd/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Fajar</a></li>
+        </ul>
+    </fieldset>
+</body>
+</html>
